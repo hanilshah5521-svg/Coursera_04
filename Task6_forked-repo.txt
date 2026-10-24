@@ -1,0 +1,7 @@
+TASK 6 — forked-repo evidence
+
+Paste the exact curl command and terminal output from your `forked-repo` file here.
+It must show that your repository is forked from:
+ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub
+
+Do not substitute invented output. If you need to regenerate evidence, use the curl command from your course instructions and save the actual terminal output.

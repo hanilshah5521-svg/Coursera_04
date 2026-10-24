@@ -1,0 +1,6 @@
+TASK 9 — github-branches evidence
+
+Paste the exact terminal output from your `github-branches` file here.
+It must display the branch names and their status in the repository.
+
+Use the actual output from your repository; do not invent it.

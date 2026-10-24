@@ -1,0 +1,6 @@
+TASK 8 — bug-fix-revert evidence
+
+Paste the exact curl command and terminal output from your `bug-fix-revert` file here.
+It must verify your pull request and show the forked repository from which the pull request was created.
+
+Use the actual output from your repository; do not invent it.
