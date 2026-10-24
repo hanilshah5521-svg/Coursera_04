@@ -1,7 +1,12 @@
 TASK 7 — merge_branches evidence
 
-Paste the exact terminal output from your `merge_branches` file here, including these commands:
-git checkout main
-git merge bug-fix-typo
+Repository: https://github.com/hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub
 
-The output must clearly indicate that 1 file was changed. Use the actual output from your repository; do not invent it.
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+$ git merge bug-fix-typo
+Updating ad95b0a..b09f05d
+Fast-forward
+ simple-interest.sh | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
