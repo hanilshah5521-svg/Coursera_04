@@ -1,6 +1,19 @@
 TASK 8 — bug-fix-revert evidence
 
-Paste the exact curl command and terminal output from your `bug-fix-revert` file here.
-It must verify your pull request and show the forked repository from which the pull request was created.
+Pull request: https://github.com/hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub/pull/1
 
-Use the actual output from your repository; do not invent it.
+$ curl -s https://api.github.com/repos/hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub/pulls/1 | grep -E '"(title|state|html_url|ref|full_name)"'
+  "html_url": "https://github.com/hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub/pull/1",
+  "state": "open",
+  "title": "Revert typo fix",
+    "html_url": "https://github.com/hanilshah5521-svg",
+    "ref": "bug-fix-revert",
+      "full_name": "hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub",
+        "html_url": "https://github.com/hanilshah5521-svg",
+      "html_url": "https://github.com/hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub",
+      "html_url": "https://github.com/hanilshah5521-svg",
+    "ref": "main",
+      "full_name": "hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub",
+        "html_url": "https://github.com/hanilshah5521-svg",
+      "html_url": "https://github.com/hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub",
+      "html_url": "https://github.com/hanilshah5521-svg",

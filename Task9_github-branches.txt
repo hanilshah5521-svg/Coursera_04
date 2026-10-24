@@ -1,6 +1,12 @@
 TASK 9 — github-branches evidence
 
-Paste the exact terminal output from your `github-branches` file here.
-It must display the branch names and their status in the repository.
+Repository: https://github.com/hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub
 
-Use the actual output from your repository; do not invent it.
+$ git branch -a -vv
+  bug-fix-revert                65eda05 [origin/bug-fix-revert] Revert "Fix typo in simple-interest.sh"
+  bug-fix-typo                  b09f05d [origin/bug-fix-typo] Fix typo in simple-interest.sh
+* main                          b09f05d [origin/main] Fix typo in simple-interest.sh
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert 65eda05 Revert "Fix typo in simple-interest.sh"
+  remotes/origin/bug-fix-typo   b09f05d Fix typo in simple-interest.sh
+  remotes/origin/main           b09f05d Fix typo in simple-interest.sh
