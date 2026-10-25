@@ -1,19 +1,19 @@
 TASK 8 — bug-fix-revert evidence
 
-Pull request: https://github.com/hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub/pull/1
+Pull request: https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/12898
 
-$ curl -s https://api.github.com/repos/hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub/pulls/1 | grep -E '"(title|state|html_url|ref|full_name)"'
-  "html_url": "https://github.com/hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub/pull/1",
-  "state": "open",
-  "title": "Revert typo fix",
+$ curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/12898 | grep -E '"(html_url|state|title|ref|full_name)"'
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/12898",
+  "state": "closed",
+  "title": "Fix typo in simple-interest.sh",
     "html_url": "https://github.com/hanilshah5521-svg",
-    "ref": "bug-fix-revert",
+    "ref": "bug-fix-typo",
       "full_name": "hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub",
         "html_url": "https://github.com/hanilshah5521-svg",
       "html_url": "https://github.com/hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub",
       "html_url": "https://github.com/hanilshah5521-svg",
     "ref": "main",
-      "full_name": "hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub",
-        "html_url": "https://github.com/hanilshah5521-svg",
-      "html_url": "https://github.com/hanilshah5521-svg/mcino-Introduction-to-Git-and-GitHub",
-      "html_url": "https://github.com/hanilshah5521-svg",
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+        "html_url": "https://github.com/ibm-developer-skills-network",
+      "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+      "html_url": "https://github.com/ibm-developer-skills-network",
